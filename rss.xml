@@ -1,10 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Dec 2021 07:02:12 GMT</lastBuildDate><item><title><![CDATA[Add @wkocjan/gatsby-theme-intro plugin]]></title><description><![CDATA[My website page is https://licanhua.github.io/, and I’d like to add a profile page https://licanhua.github.io/profile to the existing gatsby…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile/</guid><pubDate>Wed, 01 Dec 2021 08:12:03 GMT</pubDate><content:encoded>&lt;p&gt;My website page is &lt;a href=&quot;https://licanhua.github.io/&quot;&gt;https://licanhua.github.io/&lt;/a&gt;, and I’d like to add a profile page &lt;a href=&quot;https://licanhua.github.io/profile&quot;&gt;https://licanhua.github.io/profile&lt;/a&gt; to the existing gatsby site.&lt;/p&gt;
-&lt;h1&gt;Install @wkocjan/gatsby-theme-intro&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Dec 2021 20:08:01 GMT</lastBuildDate><item><title><![CDATA[Issue of mixing @wkocjan/gatsby-theme-intro with gatsby-starter-blog]]></title><description><![CDATA[My main site is create gatsby-starter-blog. After I mixed it with @wkocjan/gatsby-theme-intro, the main site layout is changed because…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile-issue/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile-issue/</guid><pubDate>Thu, 02 Dec 2021 08:12:03 GMT</pubDate><content:encoded>&lt;p&gt;My main site is create gatsby-starter-blog. After I mixed it with @wkocjan/gatsby-theme-intro, the main site layout is changed because TailwindCSS override the default styles.&lt;/p&gt;
+&lt;p&gt;Finally you will see things like this
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/702cc540446de6f692987a20bee5bc00/5b481/issue.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.55696202531645%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABJ0AAASdAHeZh94AAAB/klEQVQ4y42TWXPaMBSF/f9/T4FJKIsNXmUb73jFuw1pZ5qGaTN9Oh1d0tImZNqHbyRdW8dH10eCZAeYSjruFQsTUcXCcOAULXZ584ZfdT6+h2AmJYyoAIsP0KOccA/dG/5HjASNfQHFj6EGKbQwhRokULz4gp9c8BLYWXPT9Wv3AhfZOhFkd0+jaPk0Z/HVtRZktIGc/sO9sHX3WDIXK+Zhs4sg7UIaeSu4IG+HlVZg+wJ6lMHgHwgzaEFK7vUw/6MVDQQuNpE0zDYGJqJGP2i2NfBBVGnOa7Mtw51sEms7gBpkJCZ7MWTejrwh6Mg679nOh+IE0NwI8s6H6kbQvAiGH8OMMvhFAy+viaDsENXDX4RVh7Ds4PIjt8OIz2OHsWvQlsWF6oBj16CvSwxtjS+fTvjx7QnP5694Pj/i+9Mrzo9UT5oBQt6OaMcj6n5E1Q2o+gt8XbY9UQ8j+tMDuuMDutP7cJeC7O2xYC5EO8DK8rEyfYh2SL0y4hJW1sDMarCkeqEESyuYaUXPOVRLyksP+R/9qNlYGg5WzMW9YmKuWphrFhb6Dgvdwdr0sTY9Wq8oES7mmo0NJSKkuPG02FkNYcUcTCUNdwrDdKtThDZOBH4lRSugF/mab+KR4oHfvMxv3hQ6MrnwsGTebxHJDimHXtlfQ1xew8zrt27MT1LijsMJ18QnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;issue of mixing plugins&quot;
+        title=&quot;issue of mixing plugins&quot;
+        src=&quot;/static/702cc540446de6f692987a20bee5bc00/f058b/issue.png&quot;
+        srcset=&quot;/static/702cc540446de6f692987a20bee5bc00/c26ae/issue.png 158w,
+/static/702cc540446de6f692987a20bee5bc00/6bdcf/issue.png 315w,
+/static/702cc540446de6f692987a20bee5bc00/f058b/issue.png 630w,
+/static/702cc540446de6f692987a20bee5bc00/5b481/issue.png 846w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Issue of @wkocjan/gatsby-theme-intro plugins&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;If you are not using TailwindCSS, don’t try @wkocjan/gatsby-theme-intro. Otherwise you have to spend too much time to fix it&lt;/li&gt;
+&lt;li&gt;contact form is not able to be disabled if you doesn’t make code change.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/&quot;&gt;shadowing&lt;/a&gt; doesn’t work well for component.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;How I resolved the issue&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;I created a new GitHub Pages &lt;a href=&quot;https://github.com/licanhua/profile&quot;&gt;/profile&lt;/a&gt; which is in another github repo.&lt;/li&gt;
+&lt;li&gt;It’s able to shadow @wkocjan\gatsby-theme-intro\templates\index.js, then use your own component&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can get the new code &lt;a href=&quot;https://github.com/licanhua/profile/tree/main/src/%40wkocjan/gatsby-theme-intro/templates&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Original code:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import CustomFonts from &quot;../components/custom-fonts/custom-fonts&quot;
+import Footer from &quot;../components/footer/footer&quot;
+import Header from &quot;../components/header/header&quot;
+import MainContent from &quot;../components/main-content/main-content&quot;
+import SEO from &quot;../components/seo/seo&quot;
+import Sidebar from &quot;../components/sidebar/sidebar&quot;
+import StructuredData from &quot;../components/structured-data/structured-data&quot;
+import &quot;../styles/style.css&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Modified code:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import CustomFonts from &quot;@wkocjan/gatsby-theme-intro/src/components/custom-fonts/custom-fonts&quot;
+import Footer from &quot;@wkocjan/gatsby-theme-intro/src/components/footer/footer&quot;
+import Header from &quot;../components/header/header&quot;
+import MainContent from &quot;../components/main-content/main-content&quot;
+import SEO from &quot;@wkocjan/gatsby-theme-intro/src/components/seo/seo&quot;
+import Sidebar from &quot;@wkocjan/gatsby-theme-intro/src/components/sidebar/sidebar&quot;
+import StructuredData from &quot;@wkocjan/gatsby-theme-intro/src/components/structured-data/structured-data&quot;
+import &quot;@wkocjan/gatsby-theme-intro/src/styles/style.css&quot;
+import Nav from &quot;../../../components/nav&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Add @wkocjan/gatsby-theme-intro plugin]]></title><description><![CDATA[My website page is https://licanhua.github.io/, and I’d like to add a profile page https://licanhua.github.io/profile to the existing gatsby…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile/</guid><pubDate>Wed, 01 Dec 2021 08:12:03 GMT</pubDate><content:encoded>&lt;p&gt;My website page is &lt;a href=&quot;https://licanhua.github.io/&quot;&gt;https://licanhua.github.io/&lt;/a&gt;, and I’d like to add a profile page &lt;a href=&quot;https://licanhua.github.io/profile&quot;&gt;https://licanhua.github.io/profile&lt;/a&gt; to the existing gatsby site.&lt;/p&gt;
+&lt;h2&gt;Install @wkocjan/gatsby-theme-intro&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm i @wkocjan/gatsby-theme-intro&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Setup the profile folder locally&lt;/h1&gt;
+&lt;h2&gt;Setup the profile folder locally&lt;/h2&gt;
 &lt;p&gt;Download content folder from &lt;a href=&quot;https://github.com/stackbit-themes/gatsby-theme-intro&quot;&gt;https://github.com/stackbit-themes/gatsby-theme-intro&lt;/a&gt; and put it into my content/profile
 Replace all the content with your profiles&lt;/p&gt;
-&lt;h1&gt;Setup the plugin&lt;/h1&gt;
+&lt;h2&gt;Setup the plugin&lt;/h2&gt;
 &lt;p&gt;Add the plugin to gatsby-config.js&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    {
       resolve: &quot;@wkocjan/gatsby-theme-intro&quot;,
@@ -14,27 +81,27 @@ Replace all the content with your profiles&lt;/p&gt;
         contentPath: &quot;content/profile&quot;
       },
     },&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Start the site and verify the change&lt;/h1&gt;
+&lt;h2&gt;Start the site and verify the change&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm run start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Component shadowing&lt;/h1&gt;
+&lt;h2&gt;Component shadowing&lt;/h2&gt;
 &lt;p&gt;You can use Gatsby component shadowing technique to customize the theme..
 Code you want to overwrite should be placed within src/@wkocjan/gatsby-theme-intro/ directory.
 Please refer to the &lt;a href=&quot;https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/&quot;&gt;official documentation&lt;/a&gt; to learn more.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Setup my blog website with Gatsby and deploy the website to GitHub Pages]]></title><description><![CDATA[As a developer, I want to host my own blogs. Since my code is in GitHub, I would like to hosting my blog on GitHub pages too. I used hexo…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-github-page/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-github-page/</guid><pubDate>Tue, 30 Nov 2021 23:12:03 GMT</pubDate><content:encoded>&lt;p&gt;As a developer, I want to host my own blogs. Since my code is in GitHub, I would like to hosting my blog on GitHub pages too. I used &lt;a href=&quot;https://hexo.io/&quot;&gt;hexo&lt;/a&gt;, and I want to try something new. There is a good discuss on &lt;a href=&quot;https://coffeencoding.com/cra-vs-next-js-vs-gatsby/&quot;&gt;cra-vs-next-js-vs-gatsby&lt;/a&gt;, and finally start it with gatsby.&lt;/p&gt;
-&lt;h1&gt;Setup Gatsby CLI&lt;/h1&gt;
+&lt;h2&gt;Setup Gatsby CLI&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Create the blog project&lt;/h1&gt;
+&lt;h2&gt;Create the blog project&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npx gatsby blog https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Change profile-pic.png&lt;/h1&gt;
+&lt;h2&gt;Change profile-pic.png&lt;/h2&gt;
 &lt;p&gt;Replace src\images\profile-pic.png with your profile pic.&lt;/p&gt;
-&lt;h1&gt;Change your personal info&lt;/h1&gt;
+&lt;h2&gt;Change your personal info&lt;/h2&gt;
 &lt;p&gt;Open gatsby-config.js and change the details of your personal info&lt;/p&gt;
-&lt;h1&gt;Update content/blog&lt;/h1&gt;
+&lt;h2&gt;Update content/blog&lt;/h2&gt;
 &lt;p&gt;Replace content/blog with your first blog&lt;/p&gt;
-&lt;h1&gt;Verify your blog change&lt;/h1&gt;
+&lt;h2&gt;Verify your blog change&lt;/h2&gt;
 &lt;p&gt;Start the dev site and go to &lt;a href=&quot;http://localhost:8000/&quot;&gt;http://localhost:8000/&lt;/a&gt; to see your blog.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm run start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;GitHub Pages&lt;/h1&gt;
-&lt;h2&gt;Add homepage to package.json&lt;/h2&gt;
+&lt;h2&gt;GitHub Pages&lt;/h2&gt;
+&lt;h3&gt;Add homepage to package.json&lt;/h3&gt;
 &lt;p&gt;The step below is important!&lt;/p&gt;
 &lt;p&gt;If you skip it, your app will not deploy correctly.&lt;/p&gt;
 &lt;p&gt;Open your package.json and add a homepage field for your project:&lt;/p&gt;
@@ -43,19 +110,19 @@ Please refer to the &lt;a href=&quot;https://www.gatsbyjs.com/docs/how-to/plugin
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  &quot;homepage&quot;: &quot;https://myusername.github.io&quot;,&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;or for a custom domain page:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  &quot;homepage&quot;: &quot;https://mywebsite.com&quot;,&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Install gh-pages and add deploy to scripts in package.json&lt;/h2&gt;
+&lt;h3&gt;Install gh-pages and add deploy to scripts in package.json&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install --save gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Add deploy script to package.json&lt;/h2&gt;
+&lt;h3&gt;Add deploy script to package.json&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  &quot;scripts&quot;: {
       ...
     &quot;deploy&quot;: &quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public&quot;
   }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Push the change to Github&lt;/h2&gt;
+&lt;h3&gt;Push the change to Github&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://gist.github.com/alexpchin/102854243cd066f8b88e#:~:text=Create%20a%20new%20repository%20on%20GitHub.%201%20In,the%20origin.%20This%20comment%20has%20been%20minimized.%20&quot;&gt;Adding an existing project to GitHub using the command line&lt;/a&gt;, then commit and push the change to remote GitHub&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git remote add origin &amp;lt;remote repository URL&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Deploy to GitHub Pages&lt;/h2&gt;
+&lt;h3&gt;Deploy to GitHub Pages&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Todo&lt;/h1&gt;
+&lt;h2&gt;Todo&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Social Share&lt;/li&gt;
 &lt;li&gt;Deploy from azure pipeline &lt;a href=&quot;https://www.xkoji.dev/blog/set-up-a-blog-with-gatsby-github-pages-and-github-actions/&quot;&gt;Git Actions&lt;/a&gt;&lt;/li&gt;
