@@ -3,7 +3,7 @@ module.exports = {
     title: `Canhua's Blog`,
     author: {
       name: `Canhua Li`,
-      summary: `who lives and works in Seattle building useful things.`,
+      summary: `who is a software engineer building all kinds of Windows UI platform for Microsoft.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -128,13 +128,5 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    {
-      resolve: "@wkocjan/gatsby-theme-intro",
-      options: {
-        theme: "blue",
-        basePath: "/profile",
-        contentPath: "content/profile"
-      },
-    },
   ],
 }

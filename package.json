@@ -8,7 +8,6 @@
     "url": "https://github.com/licanhua/blog/issues"
   },
   "dependencies": {
-    "@wkocjan/gatsby-theme-intro": "^2.0.1",
     "gatsby": "^4.2.0",
     "gatsby-plugin-feed": "^4.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",

@@ -7,16 +7,16 @@ tags: ["Gatsby", "Blog", "GitHub Pages", "@wkocjan/gatsby-theme-intro plugin"]
 ---
 My website page is https://licanhua.github.io/, and I'd like to add a profile page https://licanhua.github.io/profile to the existing gatsby site.
 
-# Install @wkocjan/gatsby-theme-intro
+## Install @wkocjan/gatsby-theme-intro
 ```
 npm i @wkocjan/gatsby-theme-intro
 ```
 
-# Setup the profile folder locally
+## Setup the profile folder locally
 Download content folder from https://github.com/stackbit-themes/gatsby-theme-intro and put it into my content/profile
 Replace all the content with your profiles
 
-# Setup the plugin
+## Setup the plugin
 Add the plugin to gatsby-config.js
 ```
     {
@@ -29,12 +29,12 @@ Add the plugin to gatsby-config.js
     },
 ```
 
-# Start the site and verify the change
+## Start the site and verify the change
 ```
 npm run start
 ```
 
-# Component shadowing
+## Component shadowing
 
 You can use Gatsby component shadowing technique to customize the theme..
 Code you want to overwrite should be placed within src/@wkocjan/gatsby-theme-intro/ directory.
