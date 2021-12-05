@@ -30,6 +30,11 @@ const Nav = ({ pageTitle, children }) => {
               Profile
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="https://www.linkedin.com/in/licanhua/" className={navLinkText}>
+              Linkedin
+            </Link>
+          </li>
         </ul>
       </nav>
       <main>
