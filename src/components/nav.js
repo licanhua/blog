@@ -21,6 +21,11 @@ const Nav = ({ pageTitle, children }) => {
             </Link>
           </li>
           <li className={navLinkItem}>
+            <Link to="/github-projects" className={navLinkText}>
+              My GitHub Projects
+            </Link>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/profile" className={navLinkText}>
               Profile
             </Link>
