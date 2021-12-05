@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Dec 2021 20:08:01 GMT</lastBuildDate><item><title><![CDATA[Issue of mixing @wkocjan/gatsby-theme-intro with gatsby-starter-blog]]></title><description><![CDATA[My main site is create gatsby-starter-blog. After I mixed it with @wkocjan/gatsby-theme-intro, the main site layout is changed because…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile-issue/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile-issue/</guid><pubDate>Thu, 02 Dec 2021 08:12:03 GMT</pubDate><content:encoded>&lt;p&gt;My main site is create gatsby-starter-blog. After I mixed it with @wkocjan/gatsby-theme-intro, the main site layout is changed because TailwindCSS override the default styles.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 05 Dec 2021 03:57:20 GMT</lastBuildDate><item><title><![CDATA['Microsoft JScript copmilation error' when running npx]]></title><description><![CDATA[Do you believe  will impact the npm shortcut on Windows?
+Yes, it did. I created npmjs clang-format-launcher package, and I expect to run it…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/npm-bin-issue/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/npm-bin-issue/</guid><pubDate>Sat, 04 Dec 2021 07:28:00 GMT</pubDate><content:encoded>&lt;p&gt;Do you believe &lt;code class=&quot;language-text&quot;&gt; #!/usr/bin/env node&lt;/code&gt; will impact the npm shortcut on Windows?
+Yes, it did.&lt;/p&gt;
+&lt;p&gt;I created npmjs &lt;a href=&quot;https://github.com/licanhua/clang-format-launcher&quot;&gt;clang-format-launcher&lt;/a&gt; package, and I expect to run it with &lt;code class=&quot;language-text&quot;&gt;npx clang-format-launcher&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;clang-format-launcher&lt;/code&gt;, then I run into
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 470px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.44303797468354%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABJ0AAASdAHeZh94AAABJ0lEQVQoz6WS3U6DQBCFedO+TS/0UfoM3pZojJTSC5Dlp6WwwCIsbcq24PYYpmJM9MY4yeTMTGYnJ1/WwBjX66fc9D9hxIsFrPs7hK4Lz/MhZQvZNDgcDjgejzidTqRt26Kpb3MpJc3qukYrJfXju2F4h2HO53iYzeBvNrBtB87awfPjE6wXCytrBcdeg70yCCGQ7lOUpUDOOURZIkszlHlBfZZx9P0Ao+97DOczoiBEwCI0dQ3OC6IwLlwuF+g/oDCmIvB97JIUZ9UhjmJU1RsqMbrJUYnqB9+x11qTfk/jqm+LIWNwXY+YmKaJ5dIEYwEdFKWAUgqqU+SYXGv9dXhKcjgVI5MojNA0EskuwW67BeecuBV5gW0UE0ueZUiSPbpO/fozPgAzkBQECrdq7AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Microsoft JScript compilation error&quot;
+        title=&quot;Microsoft JScript compilation error&quot;
+        src=&quot;/static/73ff5d02ee9017956ed6adc7f46a688c/f96db/issue.png&quot;
+        srcset=&quot;/static/73ff5d02ee9017956ed6adc7f46a688c/c26ae/issue.png 158w,
+/static/73ff5d02ee9017956ed6adc7f46a688c/6bdcf/issue.png 315w,
+/static/73ff5d02ee9017956ed6adc7f46a688c/f96db/issue.png 470w&quot;
+        sizes=&quot;(max-width: 470px) 100vw, 470px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;The error message:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Error: Expected identifier
+code: 800A03F2
+Source: Microsoft JScript compilation error&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If I run with &lt;code class=&quot;language-text&quot;&gt;node node_modules\clang-format-launcher\dist\index.js&lt;/code&gt;, then everything looks good.&lt;/p&gt;
+&lt;p&gt;I spent half an hour to investigate it, finally I found that the clang-format-launcher.bat is not emitted correct.&lt;/p&gt;
+&lt;p&gt;It’s&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&quot;%~dp0\node_modules\clang-format-launcher\dist\index.js&quot;   %*&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;but it should be&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;@IF EXIST &quot;%~dp0\node.exe&quot; (
+  &quot;%~dp0\node.exe&quot;  &quot;%~dp0\node_modules\clang-format-launcher\dist\index.js&quot; %*
+) ELSE (
+  node  &quot;%~dp0\node_modules\clang-format-launcher\dist\index.js&quot; %*
+)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After I revisit the document
+&lt;a href=&quot;https://docs.npmjs.com/cli/v6/configuring-npm/package-json#bin&quot;&gt;package bin&lt;/a&gt;,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Please make sure that your file(s) referenced in bin starts with #!/usr/bin/env node, otherwise the scripts are started without the node executable!&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Issue of mixing @wkocjan/gatsby-theme-intro with gatsby-starter-blog]]></title><description><![CDATA[My main site is create gatsby-starter-blog. After I mixed it with @wkocjan/gatsby-theme-intro, the main site layout is changed because…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile-issue/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-profile-issue/</guid><pubDate>Thu, 02 Dec 2021 08:12:03 GMT</pubDate><content:encoded>&lt;p&gt;My main site is create gatsby-starter-blog. After I mixed it with @wkocjan/gatsby-theme-intro, the main site layout is changed because TailwindCSS override the default styles.&lt;/p&gt;
 &lt;p&gt;Finally you will see things like this
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
