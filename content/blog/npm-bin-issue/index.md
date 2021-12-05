@@ -1,5 +1,5 @@
 ---
-title: "Microsoft JScript copmilation error" when running npx
+title: "'Microsoft JScript copmilation error' when running npx"
 date: "2021-12-04T07:28:00.000Z"
 description: "bin field in your package.json which is a map of command name to local file name. which doesn't work if you are mssing #!/usr/bin/env node"
 tags: ["package.json", "bin", "#!/usr/bin/env node"]
