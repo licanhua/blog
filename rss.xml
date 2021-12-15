@@ -1,4 +1,275 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 05 Dec 2021 16:55:07 GMT</lastBuildDate><item><title><![CDATA['Microsoft JScript compilation error' when running npx]]></title><description><![CDATA[Do you believe  will impact the npm shortcut on Windows?
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 Dec 2021 22:37:34 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[title: JavaScript misunderstood
+date: “2021-12-12T09:49:00.000Z”
+description: “JavaScript doesn’t work as expect”
+tags: [“JavaScript…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/js-mistake/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/js-mistake/</guid><content:encoded>&lt;hr&gt;
+&lt;p&gt;title: JavaScript misunderstood
+date: “2021-12-12T09:49:00.000Z”
+description: “JavaScript doesn’t work as expect”
+tags: [“JavaScript”, “Data Structures”]&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;array.sort()&lt;/h1&gt;
+&lt;p&gt;calling sort() by itself simply sorts the array in lexicographical (aka alphabetical) order&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 256px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3d4a80123da7e289d5196311b15897bf/6f3f2/sort.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 20.88607594936709%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABJ0AAASdAHeZh94AAAA50lEQVQY0x3M0W6DIABAUT/EVhEVFRBERaat9WHJlizZ///NXdb3k5OVosYYj3GWxhpMnGjNgBotTd/RDgO16tCzI6RELSXOdXjXM4UV1WnuRcX/U5SSLL+VhBAxTmNTZP96Me+R+ZkI24L2ljmt2G0iXSfeKc6n4iMNHI8H2ozkt4J7Id5pZkePbDqMDezHhTUebRxdGxFCUZSKTq3keUHbRKTUSLkipaeSI0K0tG1gnndud0FmrGPQjiXufP/8ErdEWCLeXUzTSlX1bOsn/dDjxot1PhjtSVxOjD3expqDj/2FqGr+AHb9emaxe2ezAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sort&quot;
+        title=&quot;sort&quot;
+        src=&quot;/static/3d4a80123da7e289d5196311b15897bf/6f3f2/sort.png&quot;
+        srcset=&quot;/static/3d4a80123da7e289d5196311b15897bf/c26ae/sort.png 158w,
+/static/3d4a80123da7e289d5196311b15897bf/6f3f2/sort.png 256w&quot;
+        sizes=&quot;(max-width: 256px) 100vw, 256px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[title: LeetCode 1
+date: “2021-12-11T23:12:03.284Z”
+description: “Leetcode good example”
+tags: [“JavaScript”, “Data Structures”, “leetcode…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/leetcode-1/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/leetcode-1/</guid><content:encoded>&lt;hr&gt;
+&lt;p&gt;title: LeetCode 1
+date: “2021-12-11T23:12:03.284Z”
+description: “Leetcode good example”
+tags: [“JavaScript”, “Data Structures”, “leetcode”]&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/rotate-array/&quot;&gt;189. Rotate Array&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It’s the best example to use splice&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {void} Do not return anything, modify nums in-place instead.
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;rotate&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;nums&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; k&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    k &lt;span class=&quot;token operator&quot;&gt;%=&lt;/span&gt; nums&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    nums&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;splice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;nums&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;splice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; k&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[C++ priority_queue and comparator]]></title><description><![CDATA[std::greater or less use function using lambda to compare struct]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/C++-Comparator/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/C++-Comparator/</guid><pubDate>Wed, 15 Dec 2021 13:50:00 GMT</pubDate><content:encoded>&lt;h2&gt;std::greater or less&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;priority_queue&amp;lt;int,vector&amp;lt;int&amp;gt;,greater&amp;lt;int&amp;gt;&amp;gt; pq;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;use function&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;bool compare(ListNode* a, ListNode* b)
+{
+   return (a-&amp;gt;val &amp;gt; b-&amp;gt;val);
+}
+
+priority_queue&amp;lt;ListNode*, vector&amp;lt;ListNode*&amp;gt;, decltype(&amp;amp;compare)&amp;gt; q(compare);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;using lambda to compare&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;    auto compare = [](int lhs, int rhs)
+                {
+                    return lhs &amp;lt; rhs;
+                };
+
+    std::priority_queue&amp;lt;int, std::vector&amp;lt;int&amp;gt;, decltype(compare)&amp;gt; q(compare);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;struct&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;struct Compare
+{
+    bool operator()(const int&amp;amp; lhs, const int&amp;amp; rhs)
+    {
+        return lhs &amp;lt; rhs;
+    }
+};
+priority_queue&amp;lt;int,vector&amp;lt;int&amp;gt;, Compare &amp;gt; pq;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JavaScript Data Structures and Algorithm.pdf]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/js-data-structure/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/js-data-structure/</guid><pubDate>Fri, 10 Dec 2021 23:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06623bfa31b61310a42a42e3a2d1dfa1/d54e4/numbers.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 10.126582278481013%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABJ0AAASdAHeZh94AAAAeUlEQVQI1yWNXQuDMBRD/f9/z8Gq2Lvaa5390MH64N6O2AUCgeSQrpTCGgI5JWqtzM4RQmBRbVZV3uuKc46cMp/j4CXCtm2o/2/u/mZ/50kXY+TR96j3iBXGYWzANE2MgyGm3E7M06B+xlrbclgWjn1HRBBr+dbKrQub/ZMJWPTS7QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;numbers&quot;
+        title=&quot;numbers&quot;
+        src=&quot;/static/06623bfa31b61310a42a42e3a2d1dfa1/f058b/numbers.png&quot;
+        srcset=&quot;/static/06623bfa31b61310a42a42e3a2d1dfa1/c26ae/numbers.png 158w,
+/static/06623bfa31b61310a42a42e3a2d1dfa1/6bdcf/numbers.png 315w,
+/static/06623bfa31b61310a42a42e3a2d1dfa1/f058b/numbers.png 630w,
+/static/06623bfa31b61310a42a42e3a2d1dfa1/d54e4/numbers.png 747w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/eefebe28471ec2830a77ff6975db16cf/6bff2/4-1-stringfunction.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.30379746835443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAABXUlEQVQoz2VS2W6DQBDj16v+XR+TpzbQcOwN5FBCOQK48hDSpl3J2mM8Mx5royRJUNc1vPdQSsFZB2McQniF9y84n8+YZ2CaRkzT9IR5nv8h2m42qKoKwzDger0KvpoGTVNju3mTZiTebrcn9H2Ptm3Rdd0DfI/iXQytlCSuXRkYhhEf7zuoQsE5qjYC751Mw8Zcq1oKGscRUfABRmtorUVpVVZ3+ROKPEOapsjSFJ9Jgv1+L83JtdairmqUISCEIMW4oiLPYY1F17WPMVY/eCfYfeh7GYuJxPq+csiXgofDAcfjUQr9XhyDyuuqkjhBrjXmoZJx3sm5XC5LwSVgcDqdJIln8XOekXJErZGly+hlWSKJY3mnj7SC++qfFCSJptNs7vSRQY4gCc5DbLFWFJm7AGs08iy75/ofhSyY57kQ+Q+tdXDWout7UcOkoigkplQhiv/+x2lc/igLfgOLAKw8i7hqIwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;String functions&quot;
+        title=&quot;String functions&quot;
+        src=&quot;/static/eefebe28471ec2830a77ff6975db16cf/f058b/4-1-stringfunction.png&quot;
+        srcset=&quot;/static/eefebe28471ec2830a77ff6975db16cf/c26ae/4-1-stringfunction.png 158w,
+/static/eefebe28471ec2830a77ff6975db16cf/6bdcf/4-1-stringfunction.png 315w,
+/static/eefebe28471ec2830a77ff6975db16cf/f058b/4-1-stringfunction.png 630w,
+/static/eefebe28471ec2830a77ff6975db16cf/40601/4-1-stringfunction.png 945w,
+/static/eefebe28471ec2830a77ff6975db16cf/6bff2/4-1-stringfunction.png 957w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/200ff7bc8e107cc06d6300d018850a12/5bf79/5-1-arrayfunction.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.46835443037975%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAABYElEQVQoz32R226DMBBE+fz+W6W+tGkqhQI2GJwAxiYkgE0y1W5zUS+KJcvAembPDpEqCiRJAmsdmqbBbquhtUFdP0PrJ1TVC7wHQvAIITzcy7IgyqXE+2qFaZr4w714hp+Bt9cVjDFc894/3KSL6t0ORZ6jKHKY1txMlyVgnidkacJ1IQSfBJDTe5ahbVucTqefhFut4azDf4suk4lSCqVSoHiKooCuKpSqxDiOfzRRZzqQ6RWZTK7P1FEKwVRkKqWAyATKsmRza+0tinmeWRtRPlRkYZ6jbRomEEJiGAYelRoyoVJMXJUlmxKl1hq77Za1h+MR0bDfwznHeZi25a5936Ou65thEsfIsoxz+4xjJk6TlGmzNIWUEvFmA+d6ROPxyAYk/r3O5zOLxcWMt5BMJy5R0EnGRO99+CbsjIGzlrO4/+UFwQd8rNc8Wu8cuq5D73rsL1NdpyHt4XBggC9gu6sG4JNLqwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Array functions&quot;
+        title=&quot;Array functions&quot;
+        src=&quot;/static/200ff7bc8e107cc06d6300d018850a12/f058b/5-1-arrayfunction.png&quot;
+        srcset=&quot;/static/200ff7bc8e107cc06d6300d018850a12/c26ae/5-1-arrayfunction.png 158w,
+/static/200ff7bc8e107cc06d6300d018850a12/6bdcf/5-1-arrayfunction.png 315w,
+/static/200ff7bc8e107cc06d6300d018850a12/f058b/5-1-arrayfunction.png 630w,
+/static/200ff7bc8e107cc06d6300d018850a12/40601/5-1-arrayfunction.png 945w,
+/static/200ff7bc8e107cc06d6300d018850a12/5bf79/5-1-arrayfunction.png 966w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/507dfa20d841c84d9f88efa79fe5614c/d7542/5-2-arrayiteration.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.37974683544304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABJ0AAASdAHeZh94AAABEUlEQVQY03WQ2XKDMAxF+c/+SX8yeUowBAIG27hh37LY4XYkOn1qNXPHi6xj6QaVMRChgNaaVUgJpTSU+kQhP6D1Gc6D4/1+w3vP638KjNY4Hg6oKovX64V1XbEsC9alxjxb3O8r2raFEILvqcg5B0/yft97z6L6oG0axFEEa+0vjBLOUeHGgL7vcD6dGDzPM8ZxxDRNLDpPP+fn84lg6HskSYI4EsiuGbLrFY/HAxuP57BtG8ZhQCQiziWXCzeQpinv6U6EIeIo3oFEl3mOsihgKwutNCcoCEaxLgt/Zoxhn8uy5ImMNqhMxb5rpXYP+65DXdecJD//Ak7TyB7mWY7b142h1ARBpJRIkwRN0/Lbb2BZxW1s9V6LAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Array iteration&quot;
+        title=&quot;Array iteration&quot;
+        src=&quot;/static/507dfa20d841c84d9f88efa79fe5614c/f058b/5-2-arrayiteration.png&quot;
+        srcset=&quot;/static/507dfa20d841c84d9f88efa79fe5614c/c26ae/5-2-arrayiteration.png 158w,
+/static/507dfa20d841c84d9f88efa79fe5614c/6bdcf/5-2-arrayiteration.png 315w,
+/static/507dfa20d841c84d9f88efa79fe5614c/f058b/5-2-arrayiteration.png 630w,
+/static/507dfa20d841c84d9f88efa79fe5614c/d7542/5-2-arrayiteration.png 810w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ea383ef1b8024efc5af8e8dc7d8d60bc/82b28/9-1-set.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.79746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABJ0AAASdAHeZh94AAABu0lEQVQoz31Ti67aMAzt/+7z9hUbTNMd073aBVraJE36fgClLzjTcYE9pM2SlcSOneNjxwsPBygVoSiOSNxXpMkHOPcR4wgAN9xuNzxknuf/6vV6hfft5QVf1msURYlh6PHjbYPV509i00rDGIP1aoXvmw2GYcA0jhj/ofR7URRJ0DRNmOerJLZxjKqqxZZlGXhHRRGsjeGcE7+zFtZaJM4tmjhUVQXvfD6j67pnWeM4yPlRapokeH19w363x/b9HW17xOl0Qtu2sjKe66XrcLn08IiuKIpnwrZpkOe5IKPQpyIFrRS01oKKCIkqvq9pmoqddz3WPS4dEFQs83dbU9cIggB1XQvx9D30Dw7J7zTBi42Bs+6JkIFZmmKaZzmTq91uh+12i8D3F4TWIjyEQocxMYw2UgETC8Kh79HflSime8e4L/L83hArDRnuaP5GyglhvHDIl+PYoCwrNE2zcJMkOB6PKIXDSDg1RguPwqdSCMPwueedoizhccPBZiN+NSGSZJQ8y+D7vqCLJIFG4AdSJkvmQ/SxwxRJyDnjj+EoEBFRKKUEJflcKojlIaM1/P1y5s9Y5nd+DvZPjVBA35bLaAkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Set&quot;
+        title=&quot;Set&quot;
+        src=&quot;/static/ea383ef1b8024efc5af8e8dc7d8d60bc/f058b/9-1-set.png&quot;
+        srcset=&quot;/static/ea383ef1b8024efc5af8e8dc7d8d60bc/c26ae/9-1-set.png 158w,
+/static/ea383ef1b8024efc5af8e8dc7d8d60bc/6bdcf/9-1-set.png 315w,
+/static/ea383ef1b8024efc5af8e8dc7d8d60bc/f058b/9-1-set.png 630w,
+/static/ea383ef1b8024efc5af8e8dc7d8d60bc/82b28/9-1-set.png 931w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fba743e72c7893d9dbb7c7be30faa23f/c0255/20-1-Bit-Manipulation.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.36708860759494%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABa0lEQVQoz4VS7W6DMAzkkfd0e4hO3Z9VmrTylYSEhI9SYC1QoDfZFayats6SZXCcy/lsLwpDSCGRZxmKPIe1FkkiYcwBefaMNH2Cs28YR2CeJ8zz/NC91+0WQghkzuFls0HgBxinCX3XYf/hY7d7R9O0GMcRfd9z/pF7TV1jmiZm55zji+SUo/8oDJAoBZ1oVFXF+aXmN/eogKyua3Rdx9/X65Xj4XCAFAJKSgY9nU74z1bA4/HIrd0DOmuhJLFLWNvF6PwvvwOsGPQeMM/ztV1jDLIs50dIy5+23PGob7LPtkVqDM7nbi2yaQpnU2itmSENzmgCzlAWBcqyZJ3bpllBvWEYbgyrCkEQcNFySOzoEaUSjgRstIZSijfDmBSB7zPrVcNFaGo3jmIoKbg9GhANhDwMI87TvtKARBwjjmNobeDv95yjx9q2/daQIrElfQiMlpQYMiAxLwpcLpfbLvY9BvJhWCPdobX5ArJY/SpiedFkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;20-1-Bit-Manipulation.png&quot;
+        title=&quot;20-1-Bit-Manipulation.png&quot;
+        src=&quot;/static/fba743e72c7893d9dbb7c7be30faa23f/f058b/20-1-Bit-Manipulation.png&quot;
+        srcset=&quot;/static/fba743e72c7893d9dbb7c7be30faa23f/c26ae/20-1-Bit-Manipulation.png 158w,
+/static/fba743e72c7893d9dbb7c7be30faa23f/6bdcf/20-1-Bit-Manipulation.png 315w,
+/static/fba743e72c7893d9dbb7c7be30faa23f/f058b/20-1-Bit-Manipulation.png 630w,
+/static/fba743e72c7893d9dbb7c7be30faa23f/c0255/20-1-Bit-Manipulation.png 920w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA['Microsoft JScript compilation error' when running npx]]></title><description><![CDATA[Do you believe  will impact the npm shortcut on Windows?
 Yes, it did. I created npmjs clang-format-launcher package, and I expect to run it…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/npm-bin-issue/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/npm-bin-issue/</guid><pubDate>Sat, 04 Dec 2021 07:28:00 GMT</pubDate><content:encoded>&lt;p&gt;Do you believe &lt;code class=&quot;language-text&quot;&gt; #!/usr/bin/env node&lt;/code&gt; will impact the npm shortcut on Windows?
 Yes, it did.&lt;/p&gt;
 &lt;p&gt;I created npmjs &lt;a href=&quot;https://github.com/licanhua/clang-format-launcher&quot;&gt;clang-format-launcher&lt;/a&gt; package, and I expect to run it with &lt;code class=&quot;language-text&quot;&gt;npx clang-format-launcher&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;clang-format-launcher&lt;/code&gt;, then I run into
