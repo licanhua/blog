@@ -3,7 +3,7 @@ module.exports = {
     title: `Canhua's Blog`,
     author: {
       name: `Canhua Li`,
-      summary: `who is a software engineer building all kinds of Windows UI platform for Microsoft.`,
+      summary: `who is a senior software engineer building all kinds of Windows UI platform for Microsoft with C++, JS, React, UWP, etc`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
