@@ -1,13 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 Dec 2021 22:37:34 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[title: JavaScript misunderstood
-date: “2021-12-12T09:49:00.000Z”
-description: “JavaScript doesn’t work as expect”
-tags: [“JavaScript…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/js-mistake/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/js-mistake/</guid><content:encoded>&lt;hr&gt;
-&lt;p&gt;title: JavaScript misunderstood
-date: “2021-12-12T09:49:00.000Z”
-description: “JavaScript doesn’t work as expect”
-tags: [“JavaScript”, “Data Structures”]&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;array.sort()&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 16 Dec 2021 02:52:39 GMT</lastBuildDate><item><title><![CDATA[C++ priority_queue and comparator]]></title><description><![CDATA[std::greater or less use function using lambda to compare struct]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/C++-Comparator/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/C++-Comparator/</guid><pubDate>Wed, 15 Dec 2021 13:50:00 GMT</pubDate><content:encoded>&lt;h2&gt;std::greater or less&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;priority_queue&amp;lt;int,vector&amp;lt;int&amp;gt;,greater&amp;lt;int&amp;gt;&amp;gt; pq;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;use function&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;bool compare(ListNode* a, ListNode* b)
+{
+   return (a-&amp;gt;val &amp;gt; b-&amp;gt;val);
+}
+
+priority_queue&amp;lt;ListNode*, vector&amp;lt;ListNode*&amp;gt;, decltype(&amp;amp;compare)&amp;gt; q(compare);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;using lambda to compare&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;    auto compare = [](int lhs, int rhs)
+                {
+                    return lhs &amp;lt; rhs;
+                };
+
+    std::priority_queue&amp;lt;int, std::vector&amp;lt;int&amp;gt;, decltype(compare)&amp;gt; q(compare);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;struct&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;struct Compare
+{
+    bool operator()(const int&amp;amp; lhs, const int&amp;amp; rhs)
+    {
+        return lhs &amp;lt; rhs;
+    }
+};
+priority_queue&amp;lt;int,vector&amp;lt;int&amp;gt;, Compare &amp;gt; pq;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JavaScript misunderstood]]></title><description><![CDATA[array.sort() calling sort() by itself simply sorts the array in lexicographical (aka alphabetical) order]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/js-mistake/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/js-mistake/</guid><pubDate>Sun, 12 Dec 2021 09:49:00 GMT</pubDate><content:encoded>&lt;h1&gt;array.sort()&lt;/h1&gt;
 &lt;p&gt;calling sort() by itself simply sorts the array in lexicographical (aka alphabetical) order&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -37,16 +54,7 @@ tags: [“JavaScript”, “Data Structures”]&lt;/p&gt;
         decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No title]]></title><description><![CDATA[title: LeetCode 1
-date: “2021-12-11T23:12:03.284Z”
-description: “Leetcode good example”
-tags: [“JavaScript”, “Data Structures”, “leetcode…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/leetcode-1/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/leetcode-1/</guid><content:encoded>&lt;hr&gt;
-&lt;p&gt;title: LeetCode 1
-date: “2021-12-11T23:12:03.284Z”
-description: “Leetcode good example”
-tags: [“JavaScript”, “Data Structures”, “leetcode”]&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/rotate-array/&quot;&gt;189. Rotate Array&lt;/a&gt;&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[LeetCode 1]]></title><description><![CDATA[189. Rotate Array It’s the best example to use splice]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/leetcode-1/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/leetcode-1/</guid><pubDate>Sat, 11 Dec 2021 23:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/rotate-array/&quot;&gt;189. Rotate Array&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It’s the best example to use splice&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
  * @param {number[]} nums
@@ -56,33 +64,7 @@ tags: [“JavaScript”, “Data Structures”, “leetcode”]&lt;/p&gt;
 &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;rotate&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;nums&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; k&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     k &lt;span class=&quot;token operator&quot;&gt;%=&lt;/span&gt; nums&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     nums&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;splice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;nums&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;splice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; k&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[C++ priority_queue and comparator]]></title><description><![CDATA[std::greater or less use function using lambda to compare struct]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/C++-Comparator/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/C++-Comparator/</guid><pubDate>Wed, 15 Dec 2021 13:50:00 GMT</pubDate><content:encoded>&lt;h2&gt;std::greater or less&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;priority_queue&amp;lt;int,vector&amp;lt;int&amp;gt;,greater&amp;lt;int&amp;gt;&amp;gt; pq;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;use function&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;bool compare(ListNode* a, ListNode* b)
-{
-   return (a-&amp;gt;val &amp;gt; b-&amp;gt;val);
-}
-
-priority_queue&amp;lt;ListNode*, vector&amp;lt;ListNode*&amp;gt;, decltype(&amp;amp;compare)&amp;gt; q(compare);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;using lambda to compare&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;    auto compare = [](int lhs, int rhs)
-                {
-                    return lhs &amp;lt; rhs;
-                };
-
-    std::priority_queue&amp;lt;int, std::vector&amp;lt;int&amp;gt;, decltype(compare)&amp;gt; q(compare);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;struct&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;struct Compare
-{
-    bool operator()(const int&amp;amp; lhs, const int&amp;amp; rhs)
-    {
-        return lhs &amp;lt; rhs;
-    }
-};
-priority_queue&amp;lt;int,vector&amp;lt;int&amp;gt;, Compare &amp;gt; pq;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JavaScript Data Structures and Algorithm.pdf]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/js-data-structure/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/js-data-structure/</guid><pubDate>Fri, 10 Dec 2021 23:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JavaScript Data Structures and Algorithm.pdf]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/js-data-structure/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/js-data-structure/</guid><pubDate>Fri, 10 Dec 2021 23:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
