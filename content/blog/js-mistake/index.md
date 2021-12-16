@@ -1,4 +1,3 @@
-
 ---
 title: JavaScript misunderstood 
 date: "2021-12-12T09:49:00.000Z"

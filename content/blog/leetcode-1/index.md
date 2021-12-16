@@ -1,4 +1,3 @@
-
 ---
 title: LeetCode 1
 date: "2021-12-11T23:12:03.284Z"
