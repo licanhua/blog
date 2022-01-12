@@ -1,7 +1,7 @@
 ---
-title: JavaScript Knowns
+title: JavaScript Knowns 2
 date: "2022-01-10T20:00:00.000Z"
-description: "JavaScript Knowns"
+description: "JavaScript Knowns 2"
 tags: ["JavaScript", "Tips"]
 ---
 
