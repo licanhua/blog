@@ -1,7 +1,7 @@
 ---
 title: LeetCode 971 - Flip Binary Tree To Match Preorder Traversal
 date: "2022-03-16T22:12:03.284Z"
-description: "Leetcode good solution"
+description: "C++ and JavaScript solution for Flip Binary Tree To Match Preorder Traversal"
 tags: ["JavaScript", "C++", "Data Structures", "leetcode"]
 
 ---
@@ -10,6 +10,9 @@ tags: ["JavaScript", "C++", "Data Structures", "leetcode"]
 [971. Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)
 
 ## use stack
+
+- JavaScript
+
 ```js
 /**
  * @param {TreeNode} root
@@ -44,6 +47,8 @@ var flipMatchVoyage = function(root, voyage) {
 };
 
 ```
+
+- C++
 
 ```c++
 class Solution {
@@ -84,6 +89,9 @@ public:
 ```
 
 ## DFS
+
+- JavaScript 
+
 ```js
 var flipMatchVoyage = function(root, voyage) {
     let index = 0;
