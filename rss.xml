@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 13 Sep 2022 05:21:43 GMT</lastBuildDate><item><title><![CDATA[Create an ASP.NET Core app with React + Typescript in Visual Studio]]></title><description><![CDATA[ASP.NET Core doesn't provide the template to create a React project with Typescript support. There are multiple ways to add Typescript to…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/asp.dotnet-react-typescript/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/asp.dotnet-react-typescript/</guid><pubDate>Mon, 12 Sep 2022 21:30:03 GMT</pubDate><content:encoded>&lt;p&gt;ASP.NET Core doesn&apos;t provide the template to create a React project with Typescript support. There are multiple ways to add Typescript to Asp.net project. For example, &lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-aspnet-with-typescript?view=vs-2022&quot;&gt;Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio&lt;/a&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 13 Sep 2022 16:37:55 GMT</lastBuildDate><item><title><![CDATA[How to test trusted types]]></title><description><![CDATA[Background JavaScript SDK should fully support Trusted Types API so that it can be seamlessly integrated in applications that enforce…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/test-trusted-types/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/test-trusted-types/</guid><pubDate>Tue, 13 Sep 2022 09:30:03 GMT</pubDate><content:encoded>&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;JavaScript SDK should fully support &lt;a href=&quot;https://w3c.github.io/webappsec-trusted-types/dist/spec/&quot;&gt;Trusted Types API&lt;/a&gt; so that it can be seamlessly integrated in applications that enforce Trusted Types for all DOM XSS Injection Sinks (such as innerHTML setters) via CSP directive require-trusted-types-for.&lt;/p&gt;
+&lt;p&gt;To meet the requirement, you need make the html trusted before arbitrary HTML assignments into .innerHTML&lt;/p&gt;
+&lt;p&gt;code examples&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;const ttPolicy = window.trustedTypes?.createPolicy(&apos;adaptivecards-ui-testapp&apos;, {
+    createHTML: value =&gt; value,
+});
+
+const trustedHtml = ttPolicy?.createHTML(inputsAsJson) ?? inputsAsJson;
+retrievedInputsDiv.innerHTML = trustedHtml as string;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;TT docs: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Trusted_Types_API&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/API/Trusted_Types_API&lt;/a&gt;
+A Guide to TT: &lt;a href=&quot;https://web.dev/trusted-types/&quot;&gt;https://web.dev/trusted-types/&lt;/a&gt;
+TT w3c spec: &lt;a href=&quot;https://w3c.github.io/webappsec-trusted-types/dist/spec/&quot;&gt;https://w3c.github.io/webappsec-trusted-types/dist/spec/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://web.dev/trusted-types/#identify-trusted-types-violations&quot;&gt;identify-trusted-types-violations&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;How to test your change&lt;/h2&gt;
+&lt;p&gt;Trusted Types are only available in a secure context like HTTPS and localhost. Make sure you are using https first.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use Content-Security-Policy-Report-Only&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you are able to modify the html response header, you may use Content-Security-Policy-Report-Only&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Content-Security-Policy-Report-Only: require-trusted-types-for &apos;script&apos;; report-uri //my-csp-endpoint.example
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;use Content-Security-Policy + meta header&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If your content is served as static context(for example, a SPA app), you may add Content-Security-Policy to your html or modify the html directly from developer&apos;s tool the browser provided.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;#x3C;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;require-trusted-types-for &apos;script&apos;;&quot; /&gt;
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Create an ASP.NET Core app with React + Typescript in Visual Studio]]></title><description><![CDATA[ASP.NET Core doesn't provide the template to create a React project with Typescript support. There are multiple ways to add Typescript to…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/asp.dotnet-react-typescript/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/asp.dotnet-react-typescript/</guid><pubDate>Mon, 12 Sep 2022 21:30:03 GMT</pubDate><content:encoded>&lt;p&gt;ASP.NET Core doesn&apos;t provide the template to create a React project with Typescript support. There are multiple ways to add Typescript to Asp.net project. For example, &lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-aspnet-with-typescript?view=vs-2022&quot;&gt;Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio&lt;/a&gt;
 If you are going to create a new React project, the easy way to use &lt;code&gt;create-react-app&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Source code: &lt;a href=&quot;https://github.com/licanhua/asp.net-core-react-typescript/tree/main&quot;&gt;https://github.com/licanhua/asp.net-core-react-typescript/tree/main&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Step 1 Create an ASP.NET core app with React&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-react?view=vs-2022&quot;&gt;Create an ASP.NET Core app with React in Visual Studio&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Step 2 Rename ClientApp to ClientApp2&lt;/h2&gt;
@@ -23,8 +52,16 @@ aspnetcore-react.js
     &quot;eject&quot;: &quot;react-scripts eject&quot;
   },
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Step 6, Run the ASP.NET project from Visual Studio.&lt;/h2&gt;
-&lt;p&gt;Expecting the new React project is launched with &lt;a href=&quot;https://localhost:44473/&quot;&gt;https://localhost:44473/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[System Design Interview]]></title><description><![CDATA[Requirement Post, Delete, Search, Image&Video, Comment, Like CAP (Strong, Weak, or complete consistency, High Availability 99.999 Latency 9…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/system-design/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/system-design/</guid><pubDate>Sat, 21 May 2022 10:30:03 GMT</pubDate><content:encoded>&lt;h2&gt;Requirement&lt;/h2&gt;
+&lt;h2&gt;Step 7, Copy setupProxy.js from ClientApp2\src to ClientApp\src&lt;/h2&gt;
+&lt;h2&gt;Step 8, Add http-proxy-middleware to package.json&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;  &quot;dependencies&quot;: {
+    ...,
+    &quot;http-proxy-middleware&quot;: &quot;^2.0.6&quot;
+  },
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Step 9, run &lt;code&gt;npm i&lt;/code&gt;&lt;/h2&gt;
+&lt;h2&gt;Step 10, Run the ASP.NET project from Visual Studio.&lt;/h2&gt;
+&lt;p&gt;Expecting the new React project is launched with &lt;a href=&quot;https://localhost:44473/&quot;&gt;https://localhost:44473/&lt;/a&gt;, and the API endpoint is &lt;a href=&quot;https://localhost:44473/weatherforecast&quot;&gt;https://localhost:44473/weatherforecast&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[System Design Interview]]></title><description><![CDATA[Requirement Post, Delete, Search, Image&Video, Comment, Like CAP (Strong, Weak, or complete consistency, High Availability 99.999 Latency 9…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/system-design/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/system-design/</guid><pubDate>Sat, 21 May 2022 10:30:03 GMT</pubDate><content:encoded>&lt;h2&gt;Requirement&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Post, Delete, Search, Image&amp;#x26;Video, Comment, Like&lt;/li&gt;
 &lt;li&gt;CAP (Strong, Weak, or complete consistency, High Availability 99.999&lt;/li&gt;
