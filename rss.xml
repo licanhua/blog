@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 21 May 2022 18:07:48 GMT</lastBuildDate><item><title><![CDATA[System Design Interview]]></title><description><![CDATA[Requirement Post, Delete, Search, Image&Video, Comment, Like CAP (Strong, Weak, or complete consistency, High Availability 99.999 Latency 9…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/system-design/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/system-design/</guid><pubDate>Sat, 21 May 2022 10:30:03 GMT</pubDate><content:encoded>&lt;h2&gt;Requirement&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 13 Sep 2022 05:12:55 GMT</lastBuildDate><item><title><![CDATA[Create an ASP.NET Core app with React + Typescript in Visual Studio]]></title><description><![CDATA[ASP.NET Core doesn't provide the template to create a React project with Typescript support. There are multiple ways to add Typescript to…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/asp.dotnet-react-typescript/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/asp.dotnet-react-typescript/</guid><pubDate>Mon, 12 Sep 2022 21:30:03 GMT</pubDate><content:encoded>&lt;p&gt;ASP.NET Core doesn&apos;t provide the template to create a React project with Typescript support. There are multiple ways to add Typescript to Asp.net project. For example, &lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-aspnet-with-typescript?view=vs-2022&quot;&gt;Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio&lt;/a&gt;
+If you are going to create a new React project, the easy way to use &lt;code&gt;create-react-app&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Step 1 Create an ASP.NET core app with React&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/javascript/tutorial-asp-net-core-with-react?view=vs-2022&quot;&gt;Create an ASP.NET Core app with React in Visual Studio&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Step 2 Rename ClientApp to ClientApp2&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;move ClientApp ClientApp2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Step 3 Start a new Create React App project with TypeScript&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;npx create-react-app ClientApp --template typescript
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Step 4 Copy below files from ClientApp2 to Client&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;aspnetcore-https.js
+aspnetcore-react.js
+.env
+.env.development
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Step 5 Add prestart to package.json&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;  &quot;scripts&quot;: {
+    &quot;prestart&quot;: &quot;node aspnetcore-https &amp;#x26;&amp;#x26; node aspnetcore-react&quot;,
+    &quot;start&quot;: &quot;react-scripts start&quot;,
+    &quot;build&quot;: &quot;react-scripts build&quot;,
+    &quot;test&quot;: &quot;react-scripts test&quot;,
+    &quot;eject&quot;: &quot;react-scripts eject&quot;
+  },
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Step 6, Run the ASP.NET project from Visual Studio.&lt;/h2&gt;
+&lt;p&gt;Expecting the new React project is launched with &lt;a href=&quot;https://localhost:44473/&quot;&gt;https://localhost:44473/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[System Design Interview]]></title><description><![CDATA[Requirement Post, Delete, Search, Image&Video, Comment, Like CAP (Strong, Weak, or complete consistency, High Availability 99.999 Latency 9…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/system-design/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/system-design/</guid><pubDate>Sat, 21 May 2022 10:30:03 GMT</pubDate><content:encoded>&lt;h2&gt;Requirement&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Post, Delete, Search, Image&amp;#x26;Video, Comment, Like&lt;/li&gt;
 &lt;li&gt;CAP (Strong, Weak, or complete consistency, High Availability 99.999&lt;/li&gt;
