@@ -3,9 +3,9 @@ module.exports = {
     title: `Canhua's Blog`,
     author: {
       name: `Canhua Li`,
-      summary: `Who is a senior software engineer building all kinds of products for Microsoft with C++, C#, JavaScript, React, React Native, UWP, etc. Java and Python were his favorite languages.`,
+      summary: `Experienced Full Stack Engineer at Microsoft, proficient in C++, C#, JavaScript, React, AngularJS, Ruby & Rails, and .Net.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Canhua's Blog`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `licanhua`,
